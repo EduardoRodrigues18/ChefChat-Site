@@ -1,11 +1,12 @@
 import { StyleSheet } from 'react-native';
 
 export const colors = {
-  primary: '#6B46C1', // Roxo da borda e título
-  secondary: '#a6ebf2', // Cor do botão
-  background: '#F7FAFC', // Fundo claro
-  text: '#FFF', // Texto do botão
-  inputBackground: '#FFF', // Fundo dos inputs
+  primary: '#00B86B',     // Verde principal da logo (vibrante e moderno)
+  secondary: '#00E08F',   // Verde mais claro para destaques e botões
+  background: '#FFFFFF',  // Fundo branco, limpo e contrastante
+  text: '#1A1A1A',        // Texto principal (preto suave para boa leitura)
+  inputBackground: '#F7F9FA', // Fundo leve nos campos de entrada
+  border: '#D9E3E6',      // Borda suave para inputs e cartões
 };
 
 export const globalStyles = StyleSheet.create({
@@ -24,6 +25,8 @@ export const globalStyles = StyleSheet.create({
     width: '80%',
     height: 40,
     borderColor: colors.primary,
+    justifyContent: 'center',
+    alignItems: 'center',
     borderWidth: 2,
     borderRadius: 5,
     marginTop: 10,
