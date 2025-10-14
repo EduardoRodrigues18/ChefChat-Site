@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 export const colors = {
-  primary: '#00B86B',      // Verde principal (tom próximo ao da logo)
-  secondary: '#00E699',    // Verde mais claro para destaques/botões
-  background: '#FFFFFF',   // Fundo branco
-  text: '#FFFFFF',         // Texto principal e ícones
-  inputBackground: '#F5F5F5', // Fundo leve para inputs
+  primary: '#6B46C1', // Roxo da borda e título
+  secondary: '#a6ebf2', // Cor do botão
+  background: '#F7FAFC', // Fundo claro
+  text: '#FFF', // Texto do botão
+  inputBackground: '#FFF', // Fundo dos inputs
 };
 
 export const globalStyles = StyleSheet.create({
